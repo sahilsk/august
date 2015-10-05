@@ -1,0 +1,78 @@
+ [
+  		{
+  			"text": "hello my tweet here", 
+                "id" : 3,
+  			"created_at": "Mon Sep 03 08:08:02 +0000 2012", 
+        "sentiment_score": 2,
+  			"user": {
+  					"name": "sonusahil", 
+  					"id_str": "23434",
+  					"profile_image_url": "https://pbs.twimg.com/profile_images/378800000827536478/f1a8df3baab8f101b8bff7c72ab98a9e_400x400.jpeg"
+  				}
+  		},
+          {
+        "text": "hello my tweet here", 
+                "id" : 34,
+        "created_at": "Mon Sep 03 08:08:02 +0000 2012", 
+        "user": {
+            "name": "sonusahil", 
+            "id_str": "23434",
+            "profile_image_url": "https://pbs.twimg.com/profile_images/378800000827536478/f1a8df3baab8f101b8bff7c72ab98a9e_400x400.jpeg"
+          }
+      },
+            {
+        "text": "hello my tweet here", 
+        "id" : 43,
+        "sentiment_score": -2,
+        "created_at": "Mon Sep 03 08:08:02 +0000 2012", 
+        "user": {
+            "name": "sonusahil", 
+            "id_str": "23434",
+            "profile_image_url": "https://pbs.twimg.com/profile_images/378800000827536478/f1a8df3baab8f101b8bff7c72ab98a9e_400x400.jpeg"
+          }
+      },
+            {
+        "text": "hello my tweet here", 
+                "id" : 433,
+                "sentiment_score": 6,
+        "created_at": "Mon Sep 03 08:08:02 +0000 2012", 
+        "user": {
+            "name": "sonusahil", 
+            "id_str": "23434",
+            "profile_image_url": "https://pbs.twimg.com/profile_images/378800000827536478/f1a8df3baab8f101b8bff7c72ab98a9e_400x400.jpeg"
+          }
+      },
+            {
+        "text": "hello my tweet here", 
+        "id" : 2343,
+        "created_at": "Mon Sep 03 08:08:02 +0000 2012", 
+        "user": {
+            "name": "sonusahil", 
+            "id_str": "23434",
+            "profile_image_url": "https://pbs.twimg.com/profile_images/378800000827536478/f1a8df3baab8f101b8bff7c72ab98a9e_400x400.jpeg"
+          }
+      },
+            {
+        "text": "hello my tweet here", 
+                "id" : 23443,
+                "sentiment_score": -1,
+        "created_at": "Mon Sep 03 08:08:02 +0000 2012", 
+        "user": {
+            "name": "sonusahil", 
+            "id_str": "23434",
+            "profile_image_url": "https://pbs.twimg.com/profile_images/378800000827536478/f1a8df3baab8f101b8bff7c72ab98a9e_400x400.jpeg"
+          }
+      },
+            {
+        "text": "hello my tweet here", 
+        "id" : 343,
+        "sentiment_score": 0,
+        "created_at": "Mon Sep 03 08:08:02 +0000 2012", 
+        "user": {
+            "name": "sonusahil", 
+            "id_str": "23434",
+            "profile_image_url": "https://pbs.twimg.com/profile_images/378800000827536478/f1a8df3baab8f101b8bff7c72ab98a9e_400x400.jpeg"
+          }
+      }  
+
+  ]

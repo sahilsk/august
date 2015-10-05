@@ -1,0 +1,19 @@
+{
+	"mongo": {
+		"host": "192.168.99.100",
+		"port": 27017,
+		"database": "august_dev"
+	},
+	"twitter": {
+		"api_key": "IRvBoC5B4fvALrkqfw0DqPjvjD",
+		"api_secret": "Mur26umUIBEDYgD1m6P2NorFvWPeEfGkaa6M7aJ21qHvSBCiskK",
+		"access_token": "71316614-4bVfVBAUERk6527soZxjWcBtqBZ5hNI1MnuqKEzjlP",
+		"access_token_secret": "G7UietKrWX8UohuZcl5ssHrhrEsiRahN0i6YEWTiv6hOdiS"
+	},
+	"practo" : {
+		"client_id": "88e04008-ca13-4afb-9e99-36b7eebee839D",
+		"token":  "W9UguViyfU43lF9LgnCnEmUh45A=9"	
+	},
+	"masters":["sonusahil"],
+	"botName" : "augustBotHaKr"
+}

@@ -1,0 +1,176 @@
+body {
+  padding: 20px 50px 50px 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #402754;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.hidden{
+  display: none;
+}
+.header {
+    background-color: #FFF;
+    padding: 5px 50px;
+    display: inline-block;
+    margin-left: -60px;
+    text-shadow: 1px 1px 1px #ccc;
+    box-shadow: 1px 1px 1px #ccc;
+}
+
+.tweet_wrapper{
+    position: relative;
+    min-height: 60px;
+    margin: 10px;
+    background-color: #FFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 2px;
+    box-shadow: 1px 1px 1px;
+}
+
+.tweet_wrapper img{
+  border-radius: 5px;
+}
+
+.posted_by {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+}
+
+.tweet_user{
+    color: #8899a6;
+    font-style: italic;
+    font-family: -webkit-pictograph;
+    font-weight: bold;
+    font-size: 13px;
+}
+.tweet_user a {
+   outline: none;
+   color: #8899a6;
+   text-decoration: none;
+}
+
+.tweet_text{
+	margin-left: 65px;
+	padding-top 5px;
+  color: #3C3636;
+  font-size: 14px;
+  line-height: 18px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: start;
+  unicode-bidi: embed;
+}
+.tweet_text p {
+    word-wrap: break-word;
+    margin: 1px;
+    font-family: initial;
+}
+
+.posted_at{
+	color: #ccc;
+	font-style: italic;
+  font-family: -webkit-body;
+}
+
+.sentiment{
+    position: absolute;
+    right: -26px;
+    top: 0px;
+}
+
+.tweetReplyText {
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin: 2px;
+    background-color: #F5F5F5;
+    text-shadow: 1px 1px 1px #ccc;
+    border-left: 1px solid #E0DFDF;
+    border-top: 1px solid #E0DFDF;
+}
+
+.tweet_controls {
+    color: #949191;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+.tweet_controls span{
+  color: #DACBE6;
+  cursor: pointer;
+}
+.tweet_controls span:hover{
+  color: #949191;
+}
+
+/** Emotion colors **/
+
+.sad {
+  background-color: #F7F3C9;
+}
+.angry {
+  background-color: #FFF0F0;
+  border-left: 5px solid #FF0000;
+}
+.good {
+  background-color: #F6FFEA;
+}
+.happy {
+  background-color: #E7F5DB;
+  border-left: 5px solid #95C503;
+}
+
+.loader {
+  display: none;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.loader.active {
+  display: block;
+  padding: 5px;
+}
+
+.notify {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #F5DB22;
+    color: #828282;
+    height: 20px;
+    left: 0px;
+    text-align: center;
+    display: none;
+    z-index: 222;
+}
+
+.notify.active {
+  display: block;
+  padding: 5px;
+}
+
+
+.footer {
+
+}
+
+.example-enter {
+	opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+	opacity: 1;
+	transition: opacity .5s ease-in;
+}
